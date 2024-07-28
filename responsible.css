@@ -1,12 +1,32 @@
  @media screen and ( max-width:576px ) {
-    nav{
-        justify-items:flex-end;
-        align-items: center;
+    .Nevigation-bar{
+        padding: 52px 20px 0 20px;
     }
     .menu-icon{
         display: block;
-    } 
+    }
     .Nav-link{
         display: none;
     }
+    .bg-header{
+        flex-direction: column;
+    }
+    .hero-Container{
+       padding: 0 20px 0 20px;
+    }
+    .speacial-btn2{
+        margin-left: 190px;
+        margin-top:-300px;
+    }
+    .speacial-btn{
+        margin-top: -340px;
+        margin-left: 32px;
+    }
+    .hero-Title{
+        font-size: 36px;
+        margin-bottom: 36px;
+        font-family: Inter;
+        margin-top: 51px;
+    }
+
  }
