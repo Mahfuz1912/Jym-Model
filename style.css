@@ -10,7 +10,7 @@
   }
 
 body{
-    background: rgb(0, 0, 0);
+    background-color: #000000;
     font-family: "Inter", sans-serif;
     color: rgb(255,255,255);
 }
@@ -23,6 +23,16 @@ body{
 #Secondary-font-color{
     color: rgb(230, 83, 60);
 }
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 20px;
+    padding-inline-start: 4px;
+    unicode-bidi: isolate;
+}
 
 /* Share Style Ended */
 
@@ -32,32 +42,29 @@ body{
 
 /* Nav Style start here */
 .Nav-link{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    width: 465px;
+    height: 46px;
+    align-items: center;
+}
+.Nav-link li{
+    margin-right: 47px;
     list-style: none;
 }
-.Nav-link a{
+.Nav-link>ul>li>a{
     text-decoration: none;
-    padding-left: 47px;
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 400;
 }
-.Nav-desin{
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 39px;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px 20px 0px 20px;
-
-}
 nav{
     justify-content: space-between;
     align-items: center;
-    max-width: 1440px;
+    max-width: 1440PX;
     margin: 0 auto;
-    padding-left: 190px;
-    padding-right: 190px;
+    margin: 57px 190px 0 190px;
 }
 .Nav-logo-Name{
     font-size: 36px;
@@ -90,6 +97,14 @@ nav{
     background-color: rgb(230, 83, 60);
     padding: 16px 40px 16px 40px;
 }
+.secondary-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    background-color: #000000;
+    margin-left: 14px;
+}
 .hero-Container{
     padding-right: 160px;
     padding-left: 190px;
@@ -98,31 +113,3 @@ nav{
     padding-right: 214px;
 }
 
-
-
-
-
-
-
-
-
-/* Resposibility */
-@media screen and ( max-width:576px ) {
-    nav{
-        padding: 0;
-    }
-    .menu-icon{
-        display: block;
-        padding-right: 10px;
-    }
-    .Nav-logo-Name{
-        padding-left: 10px;
-    }
-    .Nav-link{
-        z-index: 1;
-        display: none;
-        flex-direction: column;
-        position: absolute;
-
-    }
-}
