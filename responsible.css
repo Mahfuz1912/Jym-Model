@@ -8,7 +8,8 @@
     .Nav-link{
         display: none;
     }
-    .bg-header{
+    .bg-header,
+    .Run-cointainer{
         flex-direction: column;
     }
     .hero-Container{
@@ -16,7 +17,7 @@
     }
     .speacial-btn2{
         margin-left: 190px;
-        margin-top:-300px;
+        margin-top:-350px;
     }
     .speacial-btn{
         margin-top: -340px;
@@ -42,5 +43,19 @@
     }
     .image-container{
         margin-bottom: 40px;
+    }
+    .Run-image{
+        width: 287px;
+        height: 170px;
+    }
+    .Run-cointainer{
+        margin: 0 auto;
+        padding: 15px;
+        margin: 0 30px 30px 30px;
+    }
+    .Run-Descrip-container{
+        width: 300px;
+        height: 264px;
+        margin-bottom: 50px;
     }
  }
