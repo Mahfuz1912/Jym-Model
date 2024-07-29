@@ -28,5 +28,19 @@
         font-family: Inter;
         margin-top: 51px;
     }
-
+    .habit{
+        margin-top:500px;
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+    .Habit-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .habit-title{
+        font-size: 32px;
+    }
+    .image-container{
+        margin-bottom: 40px;
+    }
  }

@@ -80,7 +80,8 @@ header{
 /* Hero Bg Start */
 .hero-bg{
     max-width: 1440px;
-    max-height: 715px;
+    /* max-height: 715px; */
+    margin: 0 auto;
     justify-content: flex-start;
     align-items: flex-start;
 } 
@@ -114,6 +115,7 @@ header{
 }
 .hero-Container2{
     margin-top: 32px;
+    margin-bottom: 100px;
 }
 .hero-Container2 img{
     max-width: 349px;
@@ -184,21 +186,45 @@ header{
 /* Main Section Start Hear */
 /* Habit Section Start */
 .habit{
-    width: 1044px;
-    height: 452px;
-    border: 2px solid white;
-    margin: 150px 190px 0 190px;
+    max-width: 1044px;
+    margin: 0 auto;
+    /* margin: 150px 190px 0 190px; */
 }
 .habit-title{
     font-size: 48px;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 14px;
 }
 .habit-description{
     font-weight: 400;
-    font-size: 14;
+    font-size: 14px;
     text-align: center;
-    width: ;
+    color: rgba(255, 255, 255, 0.5);
+}
+.habit-img-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px 0 6px 0;
+}
+.habit-img-descrip{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.Habit-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 32px;
+}
+.image-container>img{
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color: rgb(53, 52, 52);
+    padding: 6px;
+}
+.image-container{
+    text-align: center;
 }
 /* Habit Section End */
 
