@@ -38,7 +38,8 @@
         grid-template-columns: repeat(1,1fr);
         gap: 10px;
     }
-    .habit-title{
+    .habit-title,
+    .BMI-Cal-Title{
         font-size: 32px;
     }
     .image-container{
@@ -58,4 +59,8 @@
         height: 264px;
         margin-bottom: 50px;
     }
+    .BMI-Calculator{
+       padding: 30px 20px 0 20px;
+    }
+    
  }
