@@ -94,7 +94,7 @@ header{
     font-size: 18px;
     font-weight: 600;
 }
-.primary-btn{
+#primary-btn{
     border-radius: 42px;
     background-color: rgb(230, 83, 60);
     padding: 16px 40px 16px 40px;
@@ -287,7 +287,6 @@ header{
 /* BMI Calculation start */
 .BMI-Calculation{
     max-width: 1440px;
-    height: 487px;
     margin: 0 auto;
     background-color: rgb(34, 34, 34);
     padding: 52px 190px;
@@ -299,12 +298,9 @@ header{
 }
 .BMI-Div1{
     width: 313px;
-    height: 386px;
 }
 .BMI-Div2{
-    border: 1px solid white;
     width: 577px;
-    height: 386px;
 }
 .BMI-Div-title{
     margin-bottom: 52px;
@@ -326,7 +322,6 @@ th,td,table{
 th,td{
     padding: 15px;
     text-align: left;
-    
 }
 .small-font{
     font-weight: 400;
@@ -337,25 +332,28 @@ th,td{
     font-weight: 500;
     font-size: 16px;
 }
-.from{
+.from-section{
     padding-top: 38px;
 }
-.bmi-btn{
-    font-size: 18px;
-    font-weight: 600;
-    color: rgb(255,255,255);
-    margin-top: 50px;
-}
-.activity-section{
+  
+.input-container {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+  
+input, select {
+    flex: 1;
+    padding: 15px;
+    border: none;
     border-radius: 8px;
-    /*  */
+    background-color: #444;
+    color: #FFFFFF99;
 }
-select{
-    background-color: rgba(255, 255, 255, 0.1);
-}
-option{
-    color: rgba(255, 255, 255,0.6);
+.bmi-btn{
+    margin-top: 25px;
 }
 /* BMI Calculation End */
 
