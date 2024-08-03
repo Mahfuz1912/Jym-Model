@@ -94,7 +94,7 @@ header{
     font-size: 18px;
     font-weight: 600;
 }
-#primary-btn{
+.primary-btn{
     border-radius: 42px;
     background-color: rgb(230, 83, 60);
     padding: 16px 40px 16px 40px;
@@ -377,7 +377,7 @@ input, select {
     color: #FFFFFF80;
     margin-bottom: 58px;
 }
-.Team-conteinar{
+.Team-conteinar  {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
@@ -417,26 +417,22 @@ input, select {
 /* footer section start */
 footer{
     background-color: #FFFFFF1A;
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
-    height: 500px;
-    border: 2px solid white;
+    /* height: 500px; */
     padding: 66px 190px 0 190px;
 
 }
 .Footer-Container{
     display: flex;
-    /* gap: 100px; */
     justify-content: space-between;
 }
 .foot-div1{
     width: 443px;
-    height: 250px;
 }
 .foot-div2-conteinar{
     width: 517px;
     display: flex;
-    height: 250px;
     margin-bottom: 80px;
 }
 hr{
@@ -445,6 +441,7 @@ hr{
 .small{
     text-align: center;
     margin-top: 37px;
+    padding-bottom: 37px;
 }
 .foot-div2-con1{
     width: 50%;
@@ -484,3 +481,4 @@ hr{
     font-size: 23px;
     font-weight: 400;
 }
+/* Footer Section End */
