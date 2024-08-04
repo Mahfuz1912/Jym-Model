@@ -17,10 +17,11 @@
     }
     .hero-Container{
        padding: 0 20px 0 20px;
+       margin-top: 51px;
     }
     .speacial-btn2{
-        margin-left: 100px;
-        margin-top:-350px;
+        margin-left: 190px;
+        margin-top:-360px;
     }
     .speacial-btn{
         margin-top: -340px;
@@ -28,9 +29,12 @@
     }
     .hero-Title{
         font-size: 36px;
+        font-weight: 900;
         margin-bottom: 36px;
-        font-family: Inter;
-        margin-top: 51px;
+        width: 285px;
+    }
+    #seconday-font{
+        font-size: 76px;
     }
     .habit{
         margin-top:500px;

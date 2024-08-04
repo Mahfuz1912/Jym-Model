@@ -9,7 +9,8 @@
 #seconday-font{
     font-family: 'Miama', sans-serif;
     font-weight: 400;
-    font-size: 78px;
+    font-size: 160px;
+    line-height: 50%;
   }
 
 body{
@@ -86,9 +87,13 @@ header{
     align-items: flex-start;
 } 
 .hero-Title{
+    width: 520px;
     font-size: 78px;
     font-weight: 900;
+    margin-bottom: 28px;
+    line-height: 120%;
 }
+
 .Font-Color{
     color: rgb(255, 255, 255);
     font-size: 18px;
@@ -392,7 +397,6 @@ input, select {
 .team-image-container img{
     border-radius: 18px;
     width: 100%;
-    
 }
 .team-identity{
     position: absolute;
