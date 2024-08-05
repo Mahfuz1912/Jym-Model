@@ -19,13 +19,16 @@
        padding: 0 20px 0 20px;
        margin-top: 51px;
     }
+    .hero-Container2{
+        margin-bottom: 20px;
+    }
     .speacial-btn2{
-        margin-left: 190px;
-        margin-top:-360px;
+        margin-right:80px;
+        margin-top:-70px;
     }
     .speacial-btn{
-        margin-top: -340px;
-        margin-left: 32px;
+        margin-bottom: 180px;
+        margin-left: 140px;
     }
     .hero-Title{
         font-size: 36px;
@@ -37,7 +40,6 @@
         font-size: 76px;
     }
     .habit{
-        margin-top:500px;
         margin-left: 28px;
         margin-right: 28px;
     }
