@@ -1,6 +1,7 @@
 /* Shared Style Start Here */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -285,12 +286,13 @@ body{
 .BMI-Calculator{
     max-width: 1440px;
     margin: 0 auto;
-   padding-left: 384px;
+    padding-left: 384px;
 }
 .BMI-Cal-Title{
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 14px;
+    margin-top: 100px;
 }
 .BMI-Cal-Descrip{
     color: rgba(255, 255, 255, 0.5);
@@ -358,7 +360,9 @@ th,td{
     margin-bottom: 15px;
     gap: 15px;
 }
-  
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
 input, select {
     flex: 1;
     padding: 15px;
@@ -371,6 +375,47 @@ input, select {
     margin-top: 25px;
 }
 /* BMI Calculation End */
+
+/* As-My-Wish Section Start */
+.As-My-Wish-container{
+    background-color:#444;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    border-radius: 20px;
+
+}
+.As-My-Wish-title{
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding-left: 190px;
+    padding-right: 190px;
+    font-family: "Oswald", sans-serif;
+    padding-top: 20px;
+}
+.As-My-Wish-Programs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.As-My-Wish-Programs img{
+    border-radius: 10px;
+}
+.As-My-Wish-Programs h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
 
 /* Meet Our Team SEction Start */
 .Our-Team{
@@ -456,6 +501,9 @@ hr{
     text-align: center;
     margin-top: 37px;
     padding-bottom: 37px;
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
 }
 .foot-div2-con1{
     width: 50%;

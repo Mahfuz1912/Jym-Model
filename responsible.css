@@ -100,7 +100,8 @@
     .BMI-Div-title2{
         font-size: 14px;
     }
-    .Team-conteinar{
+    .Team-conteinar,
+    .As-My-Wish-Programs{
         grid-template-columns: repeat(1,1fr);
     }
     footer{
@@ -121,4 +122,16 @@
         margin:5px;
         width: 100%;
     }
+    .As-My-Wish-title,
+    .As-My-Wish-Programs{
+        padding:15px;
+    }
+    .BMI-Cal-Title{
+        margin-top: 20px;
+    }
+    .BMI-Cal-Descrip,
+    .BMI-Calculation{
+        margin-bottom: 30px;
+    }
+    
  }
