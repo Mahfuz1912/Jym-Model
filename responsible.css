@@ -122,8 +122,7 @@
         margin:5px;
         width: 100%;
     }
-    .As-My-Wish-title,
-    .As-My-Wish-Programs{
+    .As-My-Wish-title{
         padding:15px;
     }
     .BMI-Cal-Title{
@@ -133,5 +132,11 @@
     .BMI-Calculation{
         margin-bottom: 30px;
     }
-    
+    .As-My-Wish-Programs{
+        margin: 0 auto;
+    }
+    .As-My-Wish-Programs img,
+    .As-My-Wish-Programs h1{
+        width: 90%;
+    }
  }

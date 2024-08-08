@@ -382,7 +382,7 @@ input, select {
     max-width: 1440px;
     margin: 0 auto;
     padding-bottom: 50px;
-    border-radius: 20px;
+    border-radius: 10px;
 
 }
 .As-My-Wish-title{
@@ -401,8 +401,8 @@ input, select {
     grid-template-columns: repeat(3,1fr);
     max-width: 1440px;
     margin: 0 auto;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 90px;
+    padding-right: 40px;
 }
 .As-My-Wish-Programs img{
     border-radius: 10px;
