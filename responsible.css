@@ -23,8 +23,8 @@
         margin-bottom: 20px;
     }
     .speacial-btn2{
-        margin-right:80px;
-        margin-top:-70px;
+        margin-right:60px;
+        margin-top:-55px;
     }
     .speacial-btn{
         margin-bottom: 180px;
@@ -111,6 +111,18 @@
     }
     .Team-conteinar{
         margin: 20px;
+    }
+    .team-image1,
+    .team-image2,
+    .team-image3,
+    .team-image4,
+    .team-image5,
+    .team-image6{
+        width: 99%;
+    }
+    .team-image1,
+    .team-image4{
+        display: none;
     }
     .primary-btn,
     .secondary-btn{
