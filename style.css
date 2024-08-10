@@ -12,8 +12,7 @@
     font-weight: 400;
     font-size: 160px;
     line-height: 50%;
-  }
-
+}
 body{
     background-color: #000000;
     font-family: "Inter", sans-serif;
@@ -382,7 +381,7 @@ input, select {
 
 /* As-My-Wish Section Start */
 .As-My-Wish-container{
-    background-color:#444;
+    background-color: #FFFFFF30;
     max-width: 1440px;
     margin: 0 auto;
     padding-bottom: 50px;
@@ -441,6 +440,60 @@ input, select {
     color: #FFFFFF80;
     margin-bottom: 58px;
 }
+.team-image1{
+    background:linear-gradient(rgba( 0, 0, 0, 0.2),rgba( 0, 0, 0, 0.2)) ,url('images/trainer1.png');
+    background-position: center;
+    width: 326.67px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 18px;
+ }
+ .team-image2{
+    background:linear-gradient(rgba( 0, 0, 0, 0.2),rgba( 0, 0, 0, 0.2)) ,url('images/trainer2.png');
+    background-position: center;
+    width: 326.67px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 18px;
+ }
+ .team-image3{
+    background:linear-gradient(rgba( 0, 0, 0, 0.2),rgba( 0, 0, 0, 0.2)) ,url('images/trainer3.png');
+    background-position: center;
+    width: 326.67px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 18px;
+ }
+ .team-image4{
+    background:linear-gradient(rgba( 0, 0, 0, 0.2),rgba( 0, 0, 0, 0.2)) ,url('images/trainer4.png');
+    background-position: center;
+    width: 326.67px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 18px;
+ }
+ .team-image5{
+    background:linear-gradient(rgba( 0, 0, 0, 0.2),rgba( 0, 0, 0, 0.2)) ,url('images/trainer5.png');
+    background-position: center;
+    width: 326.67px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 18px;
+ }
+ .team-image6{
+    background:linear-gradient(rgba( 0, 0, 0, 0.2),rgba( 0, 0, 0, 0.2)) ,url('images/trainer6.png');
+    background-position: center;
+    width: 326.67px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 18px;
+ }
 .Team-conteinar  {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -453,10 +506,6 @@ input, select {
 .team-image-container{
     position: relative;
 }
-.team-image-container img{
-    border-radius: 18px;
-    width: 100%;
-}
 .team-identity{
     position: absolute;
     bottom: 35px;
@@ -464,12 +513,12 @@ input, select {
     text-align: left;
 }
 #team-name{
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: 20px;
 }
 #team-post{
-    color: #FFFFFF80;
+    color: rgba(255, 255, 255, 0.7);
     font-weight: 300;
     font-size: 16px;
 }
@@ -482,9 +531,7 @@ footer{
     background-color: #FFFFFF1A;
     max-width: 1440px;
     margin: 0 auto;
-    /* height: 500px; */
     padding: 66px 190px 0 190px;
-
 }
 .Footer-Container{
     display: flex;
