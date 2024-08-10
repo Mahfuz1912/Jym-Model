@@ -258,9 +258,13 @@ body{
     align-items: center;
 }
 .Run-image{
-    width: 366px;
-    height: 312px;
     border-radius: 18px;
+    width: 366px;
+    height: 366px;
+}
+.Run-image{
+    object-fit: none;
+    object-position:60% 68%;
 }
 .Run-Descrip-container{
     width: 443px;
